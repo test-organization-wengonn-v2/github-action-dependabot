@@ -3,7 +3,6 @@ updates:
 
   - package-ecosystem: "github-actions"
     directory: "/"
-on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '* 5 * * *'
+    schedule:
+      # Check for updates to GitHub Actions every week
+      interval: "weekly"
