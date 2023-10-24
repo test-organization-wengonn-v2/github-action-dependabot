@@ -3,5 +3,7 @@ updates:
 
   - package-ecosystem: "github-actions"
     directory: "/"
-  on:
-    workflow_dispatch:
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '* 5 * * *'
