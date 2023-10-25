@@ -15,7 +15,7 @@ jobs:
     steps:
      # Checkout used for demonstration purposes
       - uses: actions/checkout@v2
-    
+      - uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d
          
       - run: |
           echo "ISSUE TITLE: ${{github.event.issue.title}}"
