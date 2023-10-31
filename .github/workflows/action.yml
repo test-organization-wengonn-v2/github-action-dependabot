@@ -8,6 +8,7 @@ on:
 #   # Environment variable for demonstration purposes
 #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+
 jobs:
   vuln_job:
     runs-on: [self-hosted, linux, x64, gpu]
