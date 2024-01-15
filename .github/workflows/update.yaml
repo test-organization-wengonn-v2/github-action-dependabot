@@ -1,4 +1,4 @@
-name: Generate preview link
+name: Generate preview link2
 
 permissions:
   actions: write
